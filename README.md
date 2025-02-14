@@ -51,19 +51,6 @@ Ensure your dataset has a structure like this:
 | 6.2       | 2.8       | 1      |
 | 5.8       | 2.7       | 0      |
 
-## 📌 Code Snippet (
-
-```python
-from sklearn.metrics import accuracy_score
-
-knn = KNeighborsClassifier(n_neighbors=k)
-knn.fit(X_train, y_train)
-y_pred = knn.predict(X_test)
-
-accuracy = accuracy_score(y_test, y_pred)
-st.write(f"### Model Accuracy: {accuracy:.2f}")
-```
-
 
 ## 🤝 Contributing
 
