@@ -38,7 +38,7 @@ Then open the **local Streamlit URL** in your browser.
 2. Select **features** and the **target column**.
 3. Choose a value for **k (number of neighbors)** using the slider.
 4. Click **"Train KNN Model 🚀"** to train the model.
-5. View **model accuracy** and **2D visualization (if applicable)**.
+5. View **model accuracy**.
 
 ## 🖥 Example Dataset Format
 
@@ -64,11 +64,6 @@ accuracy = accuracy_score(y_test, y_pred)
 st.write(f"### Model Accuracy: {accuracy:.2f}")
 ```
 
-## 🔥 Future Enhancements
-
-- Add **hyperparameter tuning** for better accuracy.
-- Support **3D visualizations**.
-- Include **different distance metrics (Manhattan, Minkowski, etc.)**.
 
 ## 🤝 Contributing
 
