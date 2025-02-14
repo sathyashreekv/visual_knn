@@ -3,7 +3,7 @@
 
 ## 📌 Introduction
 
-This is a simple **K-Nearest Neighbors (KNN) Classifier** built using **Streamlit**. The app allows users to upload a dataset, select features and a target variable, train the KNN model, and view the classification accuracy along with visualizations.
+This is a simple **K-Nearest Neighbors (KNN) Classifier** built using **Streamlit**. The app allows users to upload a dataset, select features and a target variable, train the KNN model, and view the classification accuracy.
 
 ## 🚀 Features
 
